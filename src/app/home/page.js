@@ -73,7 +73,7 @@ let sub={ fontSize: "18px", fontWeight: "bold" }
                   Login
                 </a>
               </li>
-              <li className="nav-item " style={{ marginLeft: "620px" }}>
+              <li className="nav-item " style={{ marginLeft: "400px" }}>
                 <a
                   className="text-white text-center nav-link rounded-4 p-2"
                   href="#"
@@ -87,9 +87,7 @@ let sub={ fontSize: "18px", fontWeight: "bold" }
                 </a>
               </li>
             </ul>
-            {/* <span className="navbar-text">
-              <button className="form-control w-100 text-white" style={{backgroundColor:'#394968'}}>Get Started</button>
-            </span> */}
+           
           </div>
         </div>
       </nav>
@@ -126,7 +124,7 @@ let sub={ fontSize: "18px", fontWeight: "bold" }
             </div>
             <div className="col-4 ">
               {/* <img src={hero.src} alt="" width="100%" /> */}
-              <Image src="/images/hero.png" width={500} height={600} alt="hero" />
+              <Image src="/images/hero.png" width={500} height={600} layout="responsive" alt="hero" />
             </div>
           </div>
         </div>

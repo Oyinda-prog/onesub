@@ -121,7 +121,7 @@ const feature='/images/feature.png'
             </div>
             <div className="col-4 ">
               {/* <img src={hero.src} alt="" width="100%" /> */}
-              <Image src="/images/hero.png" width={500} height={600} alt="" />
+              <Image src="/images/hero.png" width={500} height={600} alt="hero" />
             </div>
           </div>
         </div>
@@ -301,7 +301,7 @@ const feature='/images/feature.png'
                 className=""
                 style={{ width: "100%" }}
               /> */}
-               <Image  src={feature} width={600} height={700}/>  
+               <Image  src={feature} width={600} height={700} alt="logo"/>  
               <button className="btn btn-primary fs-5 rounded-2 form-control">
                 Get Started
               </button>

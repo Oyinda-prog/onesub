@@ -33,7 +33,7 @@ const page = () => {
   };
   let home = {
     marginLeft: "544px",
-    fontSize: "19px",
+    fontSize: "18px",
     fontWeight: 400,
     color: "black",
   };
@@ -45,6 +45,7 @@ const feature='/images/feature.png'
 let sub={ fontSize: "18px", fontWeight: "bold" }
   return (
     <>
+    
       <nav
         className="navbar navbar-expand-lg mb-5 p-4 bg-body-tertiary"
         style={navbar}
@@ -63,22 +64,22 @@ let sub={ fontSize: "18px", fontWeight: "bold" }
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#" style={{ fontSize: "19px" }}>
+                <a className="nav-link" href="#" style={{ fontSize: "18px" }}>
                   Contact Us
                 </a>
               </li>
 
               <li className="nav-item ">
-                <a className="nav-link" href="#" style={{ fontSize: "19px" }}>
+                <a className="nav-link" href="#" style={{ fontSize: "18px" }}>
                   Login
                 </a>
               </li>
-              <li className="nav-item " style={{ marginLeft: "400px" }}>
+              <li className="nav-item " style={{ marginLeft: "200px" }}>
                 <a
                   className="text-white text-center nav-link rounded-4 p-2"
                   href="#"
                   style={{
-                    fontSize: "20px",
+                    fontSize: "18px",
                     width: "200px",
                     backgroundColor: "#394968",
                   }}
@@ -316,7 +317,7 @@ let sub={ fontSize: "18px", fontWeight: "bold" }
         <div className="col-11 mx-auto mt-5">
           <div className="row mt-5 p-5">
             <div className="col-4 mt-5">
-              <h1>Bill Payments Made easier</h1>
+              <h3>Bill Payments Made easier</h3>
               <p className="" style={sub}>
                 Get data, cable and electricity subscriptions at cheaper prices
               </p>
@@ -396,7 +397,7 @@ let sub={ fontSize: "18px", fontWeight: "bold" }
               </p>
             </div>
             <div className="col-1 mt-5">
-            <a className="navbar-brand" href="#">
+            <a className="" href="#">
         
             <Image src="/images/logo.jpg" alt="logo" width={150} height={50} />
           </a>

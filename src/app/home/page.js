@@ -22,6 +22,11 @@ const page = () => {
 
     // height:'500px'
   };
+  let terms={
+    textDecoration: "none",
+    color: "black",
+    fontSize: "20px",
+  }
   let styleee = {
     backgroundColor: "#D9D9D9",
     // opacity:'40%'
@@ -37,7 +42,7 @@ const exam='/images/exam.png'
 const electricity='/images/electricity.png'
 const data='/images/data.png'
 const feature='/images/feature.png'
-
+let sub={ fontSize: "18px", fontWeight: "bold" }
   return (
     <>
       <nav
@@ -276,11 +281,11 @@ const feature='/images/feature.png'
             <div className="col-7 mt-5">
               <div className="col-8 p-4 rounded-5 mt-5" style={stylee}>
                 <h3 className="text-white">
-                  Whether you're subscribing for yourself or customers, We have
+                  Whether you&apos;re subscribing for yourself or customers, We have
                   you covered.
                 </h3>
                 <p className="fs-5 mt-4 text-white">
-                  Whether you're subscribing for yourself or customers, We have
+                  Whether you&apos;re subscribing for yourself or customers, We have
                   you covered.
                 </p>
               </div>
@@ -314,7 +319,7 @@ const feature='/images/feature.png'
           <div className="row mt-5 p-5">
             <div className="col-4 mt-5">
               <h1>Bill Payments Made easier</h1>
-              <p className="" style={{ fontSize: "18px", fontWeight: "bold" }}>
+              <p className="" style={sub}>
                 Get data, cable and electricity subscriptions at cheaper prices
               </p>
             </div>
@@ -335,11 +340,7 @@ const feature='/images/feature.png'
               <p>
                 <a
                   href=""
-                  style={{
-                    textDecoration: "none",
-                    color: "black",
-                    fontSize: "20px",
-                  }}
+                  style={terms}
                 >
                   Terms
                 </a>
